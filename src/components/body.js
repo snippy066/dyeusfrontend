@@ -1,14 +1,15 @@
 import React from "react";
 import Rating from "./rating";
 import productpic from '../images/book_pro.jpg';
-import Currency from "./currency";
+import Currency from "./currencyStrike";
+import CurrencyCurrent from "./currencyCurrent";
+import VariantPicker from "./variantPicker";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faIndianRupeeSign } from "@fortawesome/free-solid-svg-icons";
+
 
 function Body() {
   return (
-    <div className=" h-screen">
+    <div className="h-screen md:h-auto bg-back_blue">
       <img src={productpic} alt="product_picture" />
       <div className="text-4xl font-medium font-custfont">
         Everyday rinse and reload
@@ -19,17 +20,14 @@ function Body() {
       </div>
       <Rating />
 
-      {/* <div className=" text-3xl font-bold flex gap-5">
-        <div>
-          <FontAwesomeIcon icon={faIndianRupeeSign} />
-          899
-        </div>
-        <div className=" text-cust_text line-through">
-          <FontAwesomeIcon icon={faIndianRupeeSign} />
-          1299
-        </div>
-      </div> */}
-      <Currency text="hi"/>
+    <div className="text-3xl flex gap-8">
+      <CurrencyCurrent text="899"/>   
+      <Currency text="1299" />
+      </div>
+
+      <div>
+          <VariantPicker/>
+      </div>
     </div>
   );
 }
