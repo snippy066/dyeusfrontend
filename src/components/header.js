@@ -5,7 +5,7 @@ import {faCartShopping} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
     return (
-        <div className=''>
+        <div className='pb-8'>
             <div className='flex justify-between pt-1 pb-6 items-center'>
            <FontAwesomeIcon icon={faBars} />
            <FontAwesomeIcon icon={faCartShopping} /></div>

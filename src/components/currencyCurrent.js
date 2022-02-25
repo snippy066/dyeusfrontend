@@ -6,7 +6,7 @@ function CurrencyCurrent(props) {
   const color=props.color;
   const strike=props.strike;
     return (
-        <div className={`font-bold flex gap-5 ${color?"text-cust_text":"text-white"} ${strike ? 
+        <div className={`font-bold flex gap-5 ${color?" text-cust_text":"text-white"} ${strike ? 
         "line-through":""}`}>
         <div>
           <FontAwesomeIcon icon={faIndianRupeeSign} />

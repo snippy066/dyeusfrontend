@@ -6,7 +6,7 @@ import Body from './components/body';
 
 function App() {
   return (
-    <div className="App bg-back_blue text-white p-8 md:p-4"> 
+    <div className="App bg-back_blue text-white p-6 md:p-4"> 
      <Header/>
      <Body/>
     </div>
