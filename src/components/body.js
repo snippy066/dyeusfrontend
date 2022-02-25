@@ -1,9 +1,9 @@
 import React from "react";
 import Rating from "./rating";
 import productpic from '../images/book_pro.jpg';
-import Currency from "./currencyStrike";
 import CurrencyCurrent from "./currencyCurrent";
 import VariantPicker from "./variantPicker";
+import Cart from "./cart";
 
 
 
@@ -21,12 +21,15 @@ function Body() {
       <Rating />
 
     <div className="text-3xl flex gap-8">
-      <CurrencyCurrent text="899"/>   
-      <Currency text="1299" />
+      <CurrencyCurrent text="899" color={false} strike={false}/>   
+      <CurrencyCurrent text="1299" color={true} strike={true}/>
       </div>
 
       <div>
           <VariantPicker/>
+      </div>
+      <div>
+        <Cart/>
       </div>
     </div>
   );

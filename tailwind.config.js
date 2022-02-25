@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       colors: {
          'back_blue':'#08090c',
-         'cust_text':'#424548'
+         'cust_text':'#424548',
+         'cart_col':'#13324a'
       },
       height: {
         '.25': '0.0225rem',
