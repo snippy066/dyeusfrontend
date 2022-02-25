@@ -11,10 +11,10 @@ function Body() {
   return (
     <div className="h-full md:h-auto bg-back_blue">
       <img src={productpic} alt="product_picture" />
-      <div className="text-4xl font-medium font-custfont mt-16 pb-4">
+      <div className="text-3xl font-semibold font-custfont mt-16 pb-4">
         Everyday rinse and reload
       </div>
-      <div className="font-custfont text-sm text-slate-300 pb-4 ">
+      <div className="font-custfont2 text-sm text-slate-300 pb-4 ">
         Achieve your dream skin goal with this complete package of skincare
         produts that will rejuvenate your day.
       </div>

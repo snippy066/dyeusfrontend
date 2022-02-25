@@ -14,7 +14,7 @@ function VariantPicker(props) {
   }
 
   return (
-    <div className="flex items-center -mr-4 pb-6" onClick={clickUpdate}>
+    <div className="flex items-center font-custfont -mr-4 pb-6" onClick={clickUpdate}>
   <div className={`rounded-lg p-3 font-sans text-sm font-semibold w-11/12  
   ${select?"bg-black_sh1 border-white border-2":"bg-black_sh"}`}>
     

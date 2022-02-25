@@ -20,8 +20,8 @@ module.exports = {
         '.25': '0.0225rem',
       },
       fontFamily: {
-        'custfont': ['Rubik', 'sans-serif'],
-        'custfont2': ['Source Serif Pro', 'serif'],
+        'custfont': ['Raleway', 'sans-serif'],
+        'custfont2': ['Lato', 'sans-serif'],
         'custfont3': ['Titillium Web', 'sans-serif'],
       },
     },
